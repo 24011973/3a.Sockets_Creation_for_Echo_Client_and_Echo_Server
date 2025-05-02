@@ -45,7 +45,11 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as client_socket:
 
     data = client_socket.recv(1024)
     print(f"Received echo: {data.decode('utf-8')}")
+    
 ## OUPUT
+![image](https://github.com/user-attachments/assets/22ba7247-68f8-4f04-8889-dd86fcd2518e)
+![image](https://github.com/user-attachments/assets/c20e7ee8-4c02-4a8c-95c6-9763cec4a598)
+
 ## RESULT
 Thus, the python program for creating Echo Client and Echo Server using TCP Sockets Links 
 was successfully created and executed.
